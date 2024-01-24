@@ -1,0 +1,25 @@
+.node {
+  fill: skyblue;
+  opacity: 0.75;
+}
+
+.vertex:hover {
+  opacity: 0.95;
+}
+
+.edge {
+  stroke: black;
+  stroke-width: 0.5pt;
+}
+
+.edge:hover {
+  stroke-width: 1pt;
+}
+
+.vertex-label {
+  text-anchor: middle;
+  /*dominant-baseline: central;*/
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  fill: #666;
+  font-size: 6pt;
+}
